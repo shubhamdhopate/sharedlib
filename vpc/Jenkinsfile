@@ -8,5 +8,5 @@
 @Library('terraformlibary')_
 
 node{
-  terraform.call("Configuration")
+  terraform.call()
 }
