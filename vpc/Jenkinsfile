@@ -1,4 +1,4 @@
-@Library('terraformlibary')_
+@Library('terraformlibary')
 
 def terraforminfra = new org.opstree.terraform.groovy()
 
