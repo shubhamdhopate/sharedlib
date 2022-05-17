@@ -1,0 +1,7 @@
+@Library('terraformlibary')_
+
+def terraforminfra = new ci.terraform.groovy()
+
+node{
+  terraforminfra.call("Configuration")
+}
