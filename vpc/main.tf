@@ -1,3 +1,11 @@
+   terraform {
+     backend "s3" {
+       bucket  = "testing-tf-state"
+       key     = "vpc/terraform.tfstate"
+       region  = "us-east-2"
+       profile = "shubham"
+     }
+   }
 
 module "vpc" {
   source                                               = "OT-CLOUD-KIT/vpc/aws"
