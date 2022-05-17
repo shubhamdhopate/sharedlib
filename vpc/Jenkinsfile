@@ -8,5 +8,5 @@
 @Library('terraformlibary')_
 
 node{
-  terraform.call()
+  terraform.call(vpc/Configuration)
 }
